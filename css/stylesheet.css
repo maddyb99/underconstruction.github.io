@@ -1,0 +1,30 @@
+.bg-image{
+    background-image: url("../assets/images/bgimage.jpg");
+    filter:blur(12px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    align-self: center;
+}
+.box{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 40px;
+    width: 50%;
+    max-width: 1500px;
+    min-width: 480px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
